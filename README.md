@@ -23,4 +23,27 @@ I also needed "jackson-databind" dependency for mapping json response into a lis
 
 I learned a new things
 
+I used IntelliJ
+
+if you clone this project you must run maven for automatically install dependencies and plugins already in the pom file
+
+then open IntelliJ go to this option
+
+![image](https://user-images.githubusercontent.com/47786738/124063522-12ca4380-da01-11eb-9bef-25bdd0e4e997.png)
+
+
+then click on + button 
+
+
+![image](https://user-images.githubusercontent.com/47786738/124063610-3c836a80-da01-11eb-9046-39256073aefb.png)
+
+
+then select TestNG and the option "Test king" select "All in the package"
+
+
+![image](https://user-images.githubusercontent.com/47786738/124063702-78b6cb00-da01-11eb-9959-9a9daf2d3c33.png)
+
+
+
+
 Thank you! Applaudo Studio
