@@ -2,7 +2,8 @@
 
 ## How i did it? 
 
-I needed TestNG and Rest Assured i configured [pom file](/pom.xml) with the plugins and dependencies needed
+I needed TestNG and Rest Assured i configured [pom file](/pom.xml) with the plugins and dependencies needed,
+I also needed "jackson-databind" dependency for mapping json response into a list of class "Character"
 
 *First I created the [model](src/main/java/models/Character.java), this with the purpose of cast a json response data to a class*
 
