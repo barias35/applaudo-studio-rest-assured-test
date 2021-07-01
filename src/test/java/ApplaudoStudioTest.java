@@ -1,6 +1,4 @@
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 import io.restassured.RestAssured;
 import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
@@ -18,8 +16,7 @@ public class ApplaudoStudioTest {
 
     public static final String baseUri = "https://www.breakingbadapi.com/api/";
     private static RequestSpecification request;
-    private static ObjectMapper mapper;
-
+    
     @BeforeClass
     private void setUp(){
         RestAssured.defaultParser = Parser.JSON;
@@ -42,7 +39,6 @@ public class ApplaudoStudioTest {
 
     @Test
     public void givenAllCharacterThenPrintAllInPOJO() throws IOException {
-        ObjectMapper mapper = new ObjectMapper();
         Response response = request.get("/characters")
                 .then().statusCode(200)
                 .extract().response();
