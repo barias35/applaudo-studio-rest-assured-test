@@ -38,7 +38,7 @@ I also needed "jackson-databind" dependency for mapping json response into a lis
 
 *Here i just implemented "@BeforeClass" decorator in order to be used automatically for the test runner in Java*
 
-*This is how it look now* 
+*This is how it look now*
 
 
 ![image](https://user-images.githubusercontent.com/47786738/124062443-c4b44080-d9fe-11eb-8d2e-caedd7c49aa1.png)
@@ -67,7 +67,7 @@ I also needed "jackson-databind" dependency for mapping json response into a lis
 
 
 * *You must select the sdk in my case i used Java 11 (11.0.7) if you do not have it* 
-* [dowload here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html){target:"_blank" rel="noopener"}, *then install it after installation is completed go to the section on the image below:*
+* [dowload here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html), *then install it after installation is completed go to the section on the image below:*
 
 ![image](https://user-images.githubusercontent.com/47786738/124156197-548cd580-da65-11eb-9f0d-29063a4457de.png)
 
