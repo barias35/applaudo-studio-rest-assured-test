@@ -13,7 +13,7 @@ I also needed "jackson-databind" dependency for mapping json response into a lis
 *After I finished of creating my testcase, i realize that i repeated these lines in both test cases* ![image](https://user-images.githubusercontent.com/47786738/124062013-fb3d8b80-d9fd-11eb-997b-3f0c7f321fc0.png)
 
 
-*Here i just implemented the same method i used in another project using unittest with pytest "SetUp" method is used automatically for unitest when a testcase is run*
+*Here i just implemented the same method i used in another project [using unittest with pytest](https://github.com/barias35/demo-sauce-page-pytest/blob/master/src/tests/testcases/test_login_sauce_demo.py) "SetUp" method is used automatically for unitest when a testcase is run*
 *but this time i just implement it with "@BeforeClass" decorator in order to be used automatically for the test runner in Java*
 
 *This is how it look now* 
