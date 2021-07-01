@@ -65,7 +65,7 @@ I also needed "jackson-databind" dependency for mapping json response into a lis
 ![image](https://user-images.githubusercontent.com/47786738/124063702-78b6cb00-da01-11eb-9959-9a9daf2d3c33.png)
 
 
-* you must select the sdk in my case i used Java 11 (11.0.7)
+* you must select the sdk in my case i used Java 11 (11.0.7) if you do not have it [dowload here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html), then install it after installation is completed go to the section on the image below:
 
 ![image](https://user-images.githubusercontent.com/47786738/124156197-548cd580-da65-11eb-9f0d-29063a4457de.png)
 
