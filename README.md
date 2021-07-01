@@ -1,5 +1,27 @@
 # This project was a challenge from Applaudo Studio
 
+For following api doc site: https://breakingbadapi.com/documentation build a class with tests that resolve below exercises:
+
+- Get Walter White information and print in console birthday only
+
+- Get all characters information store them into a POJO/Model/DTO and print all characters information as below:
+
+Display format in the console must be like this
+
+Character name: "Walter White"
+
+Portrayed: "Bryan Cranston"
+
+------------------------------------------------------
+
+Character name: "Jesse Pinkman"
+
+Portrayed: "Aaron Paul"
+
+-----------------------------------------------------
+
+...
+
 ## How i did it? 
 
 I needed TestNG and Rest Assured i configured [pom file](/pom.xml) with the plugins and dependencies needed,
@@ -13,8 +35,7 @@ I also needed "jackson-databind" dependency for mapping json response into a lis
 *After I finished of creating my testcase, i realize that i repeated these lines in both test cases* ![image](https://user-images.githubusercontent.com/47786738/124062013-fb3d8b80-d9fd-11eb-997b-3f0c7f321fc0.png)
 
 
-*Here i just implemented the same method i used in another project [using unittest with pytest](https://github.com/barias35/demo-sauce-page-pytest/blob/master/src/tests/testcases/test_login_sauce_demo.py) "SetUp" method is used automatically for unitest when a testcase is run*
-*but this time i just implement it with "@BeforeClass" decorator in order to be used automatically for the test runner in Java*
+*Here i just implemented "@BeforeClass" decorator in order to be used automatically for the test runner in Java*
 
 *This is how it look now* 
 
@@ -22,27 +43,25 @@ I also needed "jackson-databind" dependency for mapping json response into a lis
 ![image](https://user-images.githubusercontent.com/47786738/124062443-c4b44080-d9fe-11eb-8d2e-caedd7c49aa1.png)
 
 
-I used IntelliJ
+I used IntelliJ, if you clone this project you must run maven for automatically install dependencies and plugins already in the pom file
 
-If you clone this project you must run maven for automatically install dependencies and plugins already in the pom file
-
-then open IntelliJ go to this option
+* then open IntelliJ go to this option
 
 ![image](https://user-images.githubusercontent.com/47786738/124063522-12ca4380-da01-11eb-9bef-25bdd0e4e997.png)
 
 
-then click on + button 
+* then click on + button 
 
 
 ![image](https://user-images.githubusercontent.com/47786738/124063610-3c836a80-da01-11eb-9046-39256073aefb.png)
 
 
-then select TestNG and the option "Test king" select "All in package"
+* then select TestNG and the option "Test king" select "All in package"
 
 
 ![image](https://user-images.githubusercontent.com/47786738/124063702-78b6cb00-da01-11eb-9959-9a9daf2d3c33.png)
 
-then run and enjoy it!
+* then run and enjoy it!
 
 ![image](https://user-images.githubusercontent.com/47786738/124063915-d814db00-da01-11eb-8fc7-02a496050e0c.png)
 
