@@ -48,29 +48,29 @@ I also needed "jackson-databind" dependency for mapping json response into a lis
 
 *I used IntelliJ, if you clone this project you must run maven for automatically install dependencies and plugins already in the pom file*
 
-* then open IntelliJ go to this option
+* Then open IntelliJ go to this option
 
 ![image](https://user-images.githubusercontent.com/47786738/124063522-12ca4380-da01-11eb-9bef-25bdd0e4e997.png)
 
 
-* then click on + button 
+* Then click on + button 
 
 
 ![image](https://user-images.githubusercontent.com/47786738/124063610-3c836a80-da01-11eb-9046-39256073aefb.png)
 
 
-* then select TestNG and the option "Test king" select "All in package"
+* Then select TestNG and the option "Test king" select "All in package"
 
 
 ![image](https://user-images.githubusercontent.com/47786738/124063702-78b6cb00-da01-11eb-9959-9a9daf2d3c33.png)
 
 
-* you must select the sdk in my case i used Java 11 (11.0.7) if you do not have it [dowload here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html), then install it after installation is completed go to the section on the image below:
+* You must select the sdk in my case i used Java 11 (11.0.7) if you do not have it [dowload here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html), then install it after installation is completed go to the section on the image below:
 
 ![image](https://user-images.githubusercontent.com/47786738/124156197-548cd580-da65-11eb-9f0d-29063a4457de.png)
 
 
-* then run and enjoy it!
+* Then run and enjoy it!
 
 ![image](https://user-images.githubusercontent.com/47786738/124063915-d814db00-da01-11eb-8fc7-02a496050e0c.png)
 
