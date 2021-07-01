@@ -43,7 +43,10 @@ I also needed "jackson-databind" dependency for mapping json response into a lis
 ![image](https://user-images.githubusercontent.com/47786738/124062443-c4b44080-d9fe-11eb-8d2e-caedd7c49aa1.png)
 
 
-I used IntelliJ, if you clone this project you must run maven for automatically install dependencies and plugins already in the pom file
+*Now i can use the request in both cases*
+
+
+*I used IntelliJ, if you clone this project you must run maven for automatically install dependencies and plugins already in the pom file*
 
 * then open IntelliJ go to this option
 
