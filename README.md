@@ -64,6 +64,12 @@ I also needed "jackson-databind" dependency for mapping json response into a lis
 
 ![image](https://user-images.githubusercontent.com/47786738/124063702-78b6cb00-da01-11eb-9959-9a9daf2d3c33.png)
 
+
+* you must select the sdk 
+
+![image](https://user-images.githubusercontent.com/47786738/124156197-548cd580-da65-11eb-9f0d-29063a4457de.png)
+
+
 * then run and enjoy it!
 
 ![image](https://user-images.githubusercontent.com/47786738/124063915-d814db00-da01-11eb-8fc7-02a496050e0c.png)
