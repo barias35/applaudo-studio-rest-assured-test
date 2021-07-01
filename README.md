@@ -7,7 +7,7 @@ I also needed "jackson-databind" dependency for mapping json response into a lis
 
 *After I finished the configuration i created the [model](src/main/java/models/Character.java), this with the purpose of cast a json response data to a class*
 
-*My next step was create my [testcase](src/test/java/ApplaudoStudioTest.java) class*
+*My next step was create my [testcase](src/test/java/ApplaudoStudioTest.java) class, *
 *this was a very challenging task because this was my first time seeing Rest Assured*
 
 *After I finished of creating my testcase, i realize that i repeated these lines in both test cases ![image](https://user-images.githubusercontent.com/47786738/124062013-fb3d8b80-d9fd-11eb-997b-3f0c7f321fc0.png)
