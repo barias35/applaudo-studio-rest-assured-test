@@ -1,5 +1,5 @@
 # This project was a challenge from Applaudo Studio
-markdown: kramdown
+
 
 For following api doc site: https://breakingbadapi.com/documentation build a class with tests that resolve below exercises:
 
