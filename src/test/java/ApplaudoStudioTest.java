@@ -1,4 +1,3 @@
-
 import io.restassured.RestAssured;
 import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
@@ -16,7 +15,7 @@ public class ApplaudoStudioTest {
 
     public static final String baseUri = "https://www.breakingbadapi.com/api/";
     private static RequestSpecification request;
-    
+
     @BeforeClass
     private void setUp(){
         RestAssured.defaultParser = Parser.JSON;
@@ -33,18 +32,19 @@ public class ApplaudoStudioTest {
                 .extract().response();
 
         JsonPath jsonData = response.jsonPath();
-        Assert.assertEquals(jsonData.getString("name").equalsIgnoreCase("[Walter White]"), true);
+        Assert.assertTrue(jsonData.getString("name").equalsIgnoreCase("[Walter White]"));
         System.out.println("Birthday of Walter White is: " + jsonData.getString("birthday"));
     }
 
     @Test
     public void givenAllCharacterThenPrintAllInPOJO() throws IOException {
+
         Response response = request.get("/characters")
                 .then().statusCode(200)
                 .extract().response();
 
         List<Character> returnedCharacters = Arrays.asList(response.getBody().as(Character[].class));
-        Assert.assertTrue(returnedCharacters.size() > 0);
+        Assert.assertNotEquals(returnedCharacters.size(), 0);
         for(Character character:  returnedCharacters){
             System.out.println(character);
         }

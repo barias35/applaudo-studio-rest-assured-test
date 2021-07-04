@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Applaudo Studio TestSuite" >
+    <test name="ApplaudoStudioAutomationTest" >
+        <classes>
+            <class name="ApplaudoStudioTest" />
+        </classes>
+    </test>
+</suite>
