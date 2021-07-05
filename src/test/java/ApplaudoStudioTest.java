@@ -43,8 +43,8 @@ public class ApplaudoStudioTest {
                 .then().statusCode(200)
                 .extract().response();
 
-        List<Character> returnedCharacters = Arrays.asList(response.getBody().as(Character[].class));
-        Assert.assertNotEquals(returnedCharacters.size(), 0);
+        Character[] returnedCharacters = response.getBody().as(Character[].class);
+        Assert.assertNotEquals(returnedCharacters.length, 0);
         for(Character character:  returnedCharacters){
             System.out.println(character);
         }
